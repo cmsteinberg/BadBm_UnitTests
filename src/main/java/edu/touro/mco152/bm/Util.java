@@ -44,6 +44,7 @@ public class Util {
      * Returns a pseudo-random number between min and max, inclusive.
      * The difference between min and max can be at most
      * <code>Integer.MAX_VALUE - 1</code>.
+     * Breaking testRandIntRange by always returning max + 1 if it's less than integer max value.
      *
      * @param min Minimum value
      * @param max Maximum value.  Must be greater than min.
@@ -58,8 +59,13 @@ public class Util {
         // nextInt is normally exclusive of the top value,
         // so add 1 to make it inclusive
         int randomNum = rand.nextInt((max - min) + 1) + min;
-
-        return randomNum;
+        if(max < Integer.MAX_VALUE) {
+            return max + 1;
+        }
+        else
+        {
+            return max;
+        }
     }
     
     /*
