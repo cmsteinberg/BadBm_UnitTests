@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.touro.mco152.bm.DiskWorkerBruteforceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-24T00:17:44" hostname="LAPTOP-KQKEOPCM" time="83.67">
+  <properties/>
+  <testcase name="sanityTestPrevSettings()" classname="edu.touro.mco152.bm.DiskWorkerBruteforceTest" time="83.67"/>
+  <system-out><![CDATA[Config for Java Disk Mark 0.4
+readTest: false
+writeTest: true
+locationDir: C:\Users\Chayim Moshe
+multiFile: true
+autoRemoveData: false
+autoReset: true
+blockSequence: SEQUENTIAL
+showMaxMin: true
+numOfFiles: 25
+numOfBlocks: 128
+blockSizeKb: 2048
+
+*** starting new worker thread
+os: Windows 10
+
+DiskModel          DriveLetter
+---------          -----------
+TOSHIBA MQ01ABF050 C:         
+model is: TOSHIBA MQ01ABF050 
+Mark(WRITE): 1 bwMbSec: 91.866 avg: 91.866
+Mark(WRITE): 2 bwMbSec: 87.288 avg: 89.577
+Mark(WRITE): 3 bwMbSec: 82.53 avg: 87.228
+Mark(WRITE): 4 bwMbSec: 79.912 avg: 85.399
+Mark(WRITE): 5 bwMbSec: 71.97 avg: 82.713
+Mark(WRITE): 6 bwMbSec: 85.958 avg: 83.254
+Mark(WRITE): 7 bwMbSec: 83.122 avg: 83.235
+Mark(WRITE): 8 bwMbSec: 86.432 avg: 83.635
+Mark(WRITE): 9 bwMbSec: 77.771 avg: 82.983
+Mark(WRITE): 10 bwMbSec: 94.333 avg: 84.118
+Mark(WRITE): 11 bwMbSec: 76.8 avg: 83.453
+Mark(WRITE): 12 bwMbSec: 87.807 avg: 83.816
+Mark(WRITE): 13 bwMbSec: 95.417 avg: 84.708
+Mark(WRITE): 14 bwMbSec: 78.339 avg: 84.253
+Mark(WRITE): 15 bwMbSec: 68.15 avg: 83.18
+Mark(WRITE): 16 bwMbSec: 88.571 avg: 83.517
+Mark(WRITE): 17 bwMbSec: 87.221 avg: 83.735
+Mark(WRITE): 18 bwMbSec: 90.456 avg: 84.108
+Mark(WRITE): 19 bwMbSec: 91.365 avg: 84.49
+Mark(WRITE): 20 bwMbSec: 88.336 avg: 84.682
+Mark(WRITE): 21 bwMbSec: 90.252 avg: 84.947
+Mark(WRITE): 22 bwMbSec: 89.465 avg: 85.153
+Mark(WRITE): 23 bwMbSec: 90.921 avg: 85.404
+Mark(WRITE): 24 bwMbSec: 94.461 avg: 85.781
+Mark(WRITE): 25 bwMbSec: 92.377 avg: 86.045
+[EL Fine]: sql: 2019-09-23 20:19:07.597--ClientSession(1834336160)--Connection(1722073905)--Thread(Thread[SwingWorker-pool-2-thread-1,5,main])--INSERT INTO DiskRun (BLOCKORDER, BLOCKSIZE, DISKINFO, ENDTIME, IOMODE, NUMBLOCKS, NUMMARKS, RUNAVG, RUNMAX, RUNMIN, STARTTIME, TOTALMARKS, TXSIZE) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [0, 2048, TOSHIBA MQ01ABF050 , 2019-09-23 20:19:07.503, 1, 128, 25, 86.0448150779878, 95.41725462269576, 68.14983241130959, 2019-09-23 20:17:44.987, 0, 6553600]
+[EL Fine]: sql: 2019-09-23 20:19:08.097--ClientSession(1834336160)--Connection(1722073905)--Thread(Thread[SwingWorker-pool-2-thread-1,5,main])--values IDENTITY_VAL_LOCAL()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

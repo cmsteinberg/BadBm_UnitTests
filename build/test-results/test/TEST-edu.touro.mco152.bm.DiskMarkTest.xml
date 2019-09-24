@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.touro.mco152.bm.DiskMarkTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-09-24T00:17:44" hostname="LAPTOP-KQKEOPCM" time="0.181">
+  <properties/>
+  <testcase name="testSetMarkNum(int)[1]" classname="edu.touro.mco152.bm.DiskMarkTest" time="0.14"/>
+  <testcase name="testSetMarkNum(int)[2]" classname="edu.touro.mco152.bm.DiskMarkTest" time="0.004"/>
+  <testcase name="testSetMarkNum(int)[3]" classname="edu.touro.mco152.bm.DiskMarkTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
